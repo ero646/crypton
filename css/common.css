@@ -389,7 +389,7 @@ section {
 .SG-card .wj_con .con1_desc {
     font-family: . SFNSDisplay;
     font-size: 24px;
-    color: #FFFFFF;
+    color: black;
     letter-spacing: 0;
     line-height: 32px;
     width: 1200px;
@@ -436,11 +436,11 @@ section {
     height: 36px;
     line-height: 36px;
     box-sizing: border-box;
-    border: 2px solid #FFFFFF;
+    border: 2px solid black;
     border-radius: 50%;
     font-family: . AppleSystemUIFont;
     font-size: 18px;
-    color: #FFFFFF;
+    color: black;
     text-align: center;
     font-style: normal;
     margin-right: 24px;
@@ -453,7 +453,7 @@ section {
     height: 36px;
     line-height: 36px;
     font-size: 18px;
-    color: #CED4E0;
+    color: black;
 }
 
 .SG-card .wj_con .con1-con .con1-con-left ul li div {
@@ -461,7 +461,7 @@ section {
     box-sizing: border-box;
     font-family: . AppleSystemUIFont;
     font-size: 16px;
-    color: #FFFFFF;
+    color: black;
     line-height: 24px;
 }
 
@@ -729,7 +729,7 @@ section {
 
 .problem, .solution, .strategicPartners, .parners {
     width: 100%;
-    background-color: transparent;
+    background-color: #2b3438;
     padding: 100px 0;
 }
 
@@ -738,7 +738,8 @@ section {
     width: 100%;
     position: relative;
     /* margin: 0 auto; */
-    background: #040c1f;
+    /*background: #040c1f;*/
+    background: linear-gradient(135deg, #58b28d, #79b743),#68b468;
 }
 
 .problem-title, .solution-title, .strategicPartners-title, .parners-title {
