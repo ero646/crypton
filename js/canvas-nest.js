@@ -23,7 +23,7 @@ window.onload=function() {
             l: script_len, //长度，用于生成id用
             z: get_attribute(script, "zIndex", -1), //z-index
             o: get_attribute(script, "opacity", 1.0), //opacity
-            c: get_attribute(script, "color", "green"), //color
+            c: get_attribute(script, "color", "black"), //color
             n: get_attribute(script, "count", 200) //count
         };
     }
@@ -58,7 +58,7 @@ window.onload=function() {
                         d = (e.max - dist) / e.max,
                         context.beginPath(),
                         context.lineWidth = d / 2,
-                        context.strokeStyle = "green",
+                        context.strokeStyle = "black",
                         context.moveTo(r.x, r.y),
                         context.lineTo(e.x, e.y),
                         context.stroke());
@@ -82,7 +82,7 @@ window.onload=function() {
             max: 60000 // 圈半径的平方
         },
         all_array;
-    context.fillStyle = 'green';
+    context.fillStyle = 'black';
     the_canvas.id = canvas_id;
     the_canvas.style.cssText = "position:absolute;top:0;left:0;z-index:1;opacity:" + config.o;
     document.getElementById('banner').appendChild(the_canvas);
